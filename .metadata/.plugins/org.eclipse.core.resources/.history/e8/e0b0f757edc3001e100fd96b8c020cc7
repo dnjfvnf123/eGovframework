@@ -1,0 +1,13 @@
+package egovframework.example.sample.web;
+
+public class BoardController {
+
+	@RequestMapping(value="/boardWrite.do")
+	public String boardWrite(){
+		
+		return "board/boardWrite";
+	}
+	
+	
+	
+}

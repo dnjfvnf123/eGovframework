@@ -1,0 +1,12 @@
+package egovframework.example.sample.service.impl;
+
+public class boardVO {
+
+	// private - 객체지향 - 캡슐화
+	private String deptno;
+	private String title;
+	private String content;
+	
+	
+	
+}

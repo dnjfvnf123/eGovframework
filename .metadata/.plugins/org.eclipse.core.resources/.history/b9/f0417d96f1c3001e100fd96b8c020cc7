@@ -1,0 +1,28 @@
+package egovframework.example.sample.web;
+
+import javax.swing.border.TitledBorder;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+// 어노테이션 - 기능구현
+// @ : 주석
+@Controller
+public class BoardController {
+
+	@RequestMapping(value="/boardWrite.do")
+	public String boardWrite(){
+		
+		return "board/boardWrite";
+	}
+	
+	@RequestMapping(value="/boardWriteSave.do")
+	public String boardWriteSave(String deptno, String title, String content){
+		
+		System.out.println("게시글 번호 : " + deptno);
+		System.out.println("제목 : " + title);
+		
+		return "";
+	}	
+	
+}

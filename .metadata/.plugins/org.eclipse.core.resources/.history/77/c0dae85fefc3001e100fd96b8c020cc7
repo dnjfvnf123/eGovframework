@@ -1,0 +1,16 @@
+package egovframework.example.sample.web;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+// 어노테이션 - 기능구현
+// @ : 주석
+@Controller
+public class BoardController {
+
+	@RequestMapping(value="/boardWrite.do")
+	public String boardWrite(){
+		
+		return "board/boardWrite";
+	}
+}

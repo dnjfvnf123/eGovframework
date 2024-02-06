@@ -1,0 +1,14 @@
+package egovframework.example.sample.web;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
+@Controller
+public class BoardController {
+
+	@RequestMapping(value="/boardWrite.do")
+	public String boardWrite(){
+		
+		return "board/boardWrite";
+	}
+}
