@@ -1,4 +1,4 @@
-### Java Spring Boot Study
+### Java eGovFrameWork Study
 ✨ **목적**: 전자정부프레임워크에 대한 이해도 증진을 위함<br>
 🎞 **기간**: 2024-02-15 ~ <br>
 
